@@ -35,7 +35,7 @@ jobs:
     - name: Checkout gitops repo
       uses: actions/checkout@v2
       with:
-        repository: rockman88v/feb-app-config
+        repository: rockman88v/myapp-config
         token: ${{ secrets.GITOPS_TOKEN }}
         path: gitops-repo
 
